@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//demo/admin.py=utf-8
 encoding//demo/models.py=utf-8
+encoding//demo/tests.py=utf-8
 encoding//demo/views.py=utf-8
