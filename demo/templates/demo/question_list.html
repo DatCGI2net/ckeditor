@@ -1,0 +1,17 @@
+{%extends 'demo/base.html'%}
+
+{%block content%}
+
+ <h1>Welcome to questions' home</h1>
+        <p class="lead">Here we go.<br> All you have to do is to click on each question below.</p>
+        
+        {%for q in object_list %}
+        {%include 'demo/includes/question.html' with question=q %}
+        {%empty%}
+        <p>Sorry, there is no questions availble now. Please check later on....
+        {%endfor%}
+        
+        
+        
+{%endblock%}
+
